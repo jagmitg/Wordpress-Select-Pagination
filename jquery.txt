@@ -1,0 +1,11 @@
+<script type="text/javascript">
+	jQuery(document).ready(function($){
+    $('.dynamic_select').bind('change', function () {
+        var url = $(this).val();
+        if (url) {
+           window.location = url;
+        }
+        return false;
+    });
+	});
+</script>
